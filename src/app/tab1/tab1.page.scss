@@ -3,6 +3,7 @@ ion-card{
     height: 120px ;
     position: initial;
     margin: auto;
+    text-align: center ;
     background-color:rgb(122, 179, 81, 1) ;
     
 }
@@ -18,17 +19,40 @@ ion-card-title {
     background-color:rgb(122, 179, 81, 1) ;
     border-radius: 5px;
     padding: 16px;
-    text-align: center
+    text-align: center ;
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    border: 3px solid #000000;
+    border-radius: 10px;
+
 
     
 }
 
 #Card1{
-    top: 110px;
+    top: 200px;
     background-color: rgba(239,239,239,84);
-
+    font-family: Tamil MN;
+    font-style: normal;
+    font-weight: bold;
+    border: 5px solid #000000;
+border-radius: 10px;
 }
 
-.bruh{
-    font-size: 20px;
+#East{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: 55px;
+top: 322px;
+}
+
+.grid{
+   top: 400px;
+
+
+}
+.content{
+    background-color: #A6D1EA;
 }

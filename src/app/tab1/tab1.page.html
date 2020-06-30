@@ -1,7 +1,7 @@
 
 
 
-<ion-content [fullscreen]="true">
+<ion-content class = "content" [fullscreen]="true">
   <ion-card id="Card1">
     <ion-card-header>
       <ion-card-title> Los Angeles
@@ -14,10 +14,10 @@
   </ion-card>
 
   <ion-grid>
+    <div class = "grid">
     <ion-row>
-
       <ion-col>
-        <div class="inner-cards" (click)="nav('/programs')">
+        <div class="inner-cards"  id ="East" (click)="nav('/programs')">
          East LA
         </div>
       </ion-col>
@@ -58,7 +58,9 @@
          Long Beach
         </div>
       </ion-col>
+  
     </ion-row>
+  </div>
 
   </ion-grid>
 </ion-content>
