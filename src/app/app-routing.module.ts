@@ -46,6 +46,10 @@ const routes: Routes = [
   {
     path: 'settings',
     loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
+  },
+  {
+    path: 'cleanup1',
+    loadChildren: () => import('./pages/cleanup1/cleanup1.module').then( m => m.Cleanup1PageModule)
   }
 ];
 @NgModule({

@@ -1,0 +1,69 @@
+ion-content class = "content" [fullscreen]="true">
+  <ion-card id="Card1">
+    <ion-card-header>
+      <ion-card-title> Los Angeles 
+    
+      </ion-card-title>
+      <ion-card-title>-</ion-card-title>
+      <ion-card-title>CA</ion-card-title>
+    </ion-card-header>
+  
+  </ion-card>
+
+  <ion-grid>
+    <div class = "grid">
+    <ion-row>
+      <ion-col>
+        <div class="inner-cards"  id ="East" (click)="nav('/programs')">
+         East LA
+        </div>
+      </ion-col>
+
+      <ion-col>
+        <div class="inner-cards" id="West" (click)="nav('/about')">
+         West LA
+        </div>
+      </ion-col>
+
+      <ion-col>
+        <div class="inner-cards" id = "South"(click)="nav('/about')">
+         South Central
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards" id = "Glendale"(click)="nav('/about')">
+         Glendale
+        </div>
+      </ion-col>
+    
+      <ion-col>
+        <div class="inner-cards" id= "Hollywood" (click)="nav('/about')">
+         Hollywood
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards" id = "burbank" (click)="nav('/about')">
+         Burbank
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards"  id = "hidden" (click)="nav('/about')">
+         Hidden Hills
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="inner-cards" id = "Long" (click)="nav('/about')">
+         Long Beach
+        </div>
+      </ion-col> 
+  
+    </ion-row>
+  </div>
+
+  </ion-grid>
+</ion-content>
+
+
+
+
+  
